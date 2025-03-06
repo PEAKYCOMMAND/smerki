@@ -71,7 +71,6 @@ body {
       border-radius:500px;
       transform: skewY(6deg);
       width: 400px;
-      border: 4px solid #0B1C38;
     }
 }
 
@@ -106,7 +105,7 @@ body {
   .section-secondary-h1 {
     line-height: 5px;
     max-width: 400px;
-    font-size: 30PX;
+    font-size: 30px;
 
     span {
       color:var(--color-blue2);
@@ -679,19 +678,22 @@ body {
 
 .section-secondary {
   .button-a-section-secondary{
-    font-size:10px ;
+    font-size:15px ;
   }
 
 }
 
 
 .section-three {
-
+  height: 65vh;
   transform: skewY(0deg);
   .section-three-conteiner{
     transform: skewy(0);
 
   .section-three-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     h1{
       font-size: 25px;
     }
@@ -701,6 +703,14 @@ body {
   }
   
   }
+
+
+  .section-three-icons {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
   }
 }
 
